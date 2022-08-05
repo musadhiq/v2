@@ -12,10 +12,10 @@ export const FooterText = styled.h3`
   font-weight: 400;
   padding-top: 50px;
   padding: 10px 0;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   @media (max-width: ${size.mobileL}) {
-    font-size: 0.7rem;
-    padding: 5px 0;
+    font-size: 0.68rem;
+    padding: 10px 0;
   }
 `;
 export const FooterLink = styled(Link)`
@@ -26,7 +26,7 @@ export const FooterLink = styled(Link)`
     margin: 0 5px;
     cursor: pointer;
     @media (max-width: ${size.mobileL}) {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
   }
 `;

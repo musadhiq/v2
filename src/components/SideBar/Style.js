@@ -33,7 +33,7 @@ const sideBarMain = styled(Container)`
 `;
 
 export const SideBarLeft = styled(sideBarMain)`
-  left: 4%;
+  left: 2%;
   &::after {
     top: 230px;
   }
@@ -46,16 +46,16 @@ export const SideBarLeft = styled(sideBarMain)`
     left: 2%;
   }
   @media (max-width: ${size.mobileL}) {
-    bottom: 70px;
+    bottom: 86px;
     left: 0;
     margin: 0;
     width: 100%;
   }
 `;
 export const SideBarRight = styled(sideBarMain)`
-  right: 4%;
+  right: 3%;
   &::after {
-    top: 240px;
+    top: 250px;
   }
   @media (max-width: ${size.laptop}) {
     right: 2%;
@@ -73,14 +73,14 @@ export const SideBarListItem = styled(ListItem)`
   color: ${colors.textDark};
 `;
 export const SideBarLink = styled(Link)`
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   transition: all 0.3s ease-in-out;
   &:hover {
     color: ${colors.green};
     transform: scale(1.1);
   }
   @media (max-width: ${size.laptop}) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 `;
 

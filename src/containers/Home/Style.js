@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { Head1, Head2, colors, size, Container } from "../../Styles";
 
 export const HomeContainer = styled(Container)`
-  padding: 50px 90px;
+  padding: 50px 250px;
   @media (min-width: ${size.laptop}) {
+    padding: 50px 90px;
   }
   @media (max-width: ${size.tablet}) {
     margin: 10% 0;
@@ -18,7 +19,7 @@ export const HomeContainer = styled(Container)`
 export const Homeh1 = styled(Head1)`
   font-size: 3.8rem;
   @media (min-width: ${size.laptopL}) {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   @media (max-width: ${size.tablet}) {
     font-size: 3.5rem;
@@ -35,11 +36,8 @@ export const Homeh1 = styled(Head1)`
   }
 `;
 export const Homeh2 = styled(Head2)`
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: ${colors.textDark};
-  @media (min-width: ${size.laptopL}) {
-    font-size: 3rem;
-  }
   @media (max-width: ${size.tablet}) {
     font-size: 2.3rem;
   }
