@@ -1,35 +1,29 @@
 [
     {
-        "id": 1,
-        "name": "demo name",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicpraesentium sed exercitationem est aspernatur quia quis omnis minusmagni esse. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "tools": [
-            "vsCode",
-            "react",
-            "node"
-        ],
-        "img": "https://rockcontent.com/wp-content/uploads/2020/09/how-to-check-if-a-website-is-secure-1024x538.png.webp"
-    },
-    {
         "id": 2,
-        "name": "demo name",
+        "name": "Cloud Data de-duplication system",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicpraesentium sed exercitationem est aspernatur quia quis omnis minusmagni esse. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "tools": [
-            "vsCode",
-            "react",
-            "node"
+            "Python",
+            "Flask",
+            "Scss",
+            "Javascript"
         ],
         "img": "https://rockcontent.com/wp-content/uploads/2020/09/how-to-check-if-a-website-is-secure-1024x538.png.webp"
     },
     {
-        "id": 3,
-        "name": "demo name",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicpraesentium sed exercitationem est aspernatur quia quis omnis minusmagni esse. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "id": 1,
+        "tag": "Template",
+        "name": "Bridal Studio",
+        "description": "Bridal Studio website template with awsome animations and smooth scrolling. website developed by using pure css and html5 and JavaScript. This website template is compatible with all modern browsers. It is also responsive and can be used on any device.",
         "tools": [
             "vsCode",
-            "react",
-            "node"
+            "Html5",
+            "Scss",
+            "Javascript"
         ],
-        "img": "https://rockcontent.com/wp-content/uploads/2020/09/how-to-check-if-a-website-is-secure-1024x538.png.webp"
+        "img": "https://i.ibb.co/kyF7fTw/image.png",
+        "github": "https://github.com/musadhiq/bridal-studio_v2",
+        "projectLink": "https://bridal-studio-v2.netlify.app/"
     }
 ]

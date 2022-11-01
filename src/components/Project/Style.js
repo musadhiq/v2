@@ -167,7 +167,7 @@ export const ProjectDescription = styled(Text)`
   padding: 25px;
   box-shadow: -12px 6px 22px -12px rgb(0 0 0 / 96%);
   border-radius: 6px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   @media (max-width: ${size.laptop}) {
     font-size: 1rem;
   }
@@ -184,6 +184,7 @@ export const ProjectDescription = styled(Text)`
 export const ProjectHead = styled(Head2)`
   font-size: 2rem;
   @media (max-width: ${size.mobileL}) {
+    font-size: 1.5rem;
     margin: 0;
   }
 `;
@@ -203,4 +204,8 @@ export const ProjectList = styled(List)`
 `;
 export const ProjectListOp = styled(ProjectList)``;
 
-export const ProjectListItem = styled(ListItem)``;
+export const ProjectListItem = styled(ListItem)`
+  &:hover {
+    color: ${colors.green};
+  }
+`;

@@ -20,15 +20,15 @@ function About() {
       <AboutInnerContainer>
         <AboutLeftContainer>
           <AboutText color="dark" size="1.2rem">
-            I am a full-stack developer with a passion for building beautiful,
-            responsive websites. Hello! My name is Musadhiq and I enjoy creating
-            things that live on the internet. My interest in web development. I
-            am a passionate developer from India I develop things to the
-            Internet! <br /> <br />
-            Fast-forward to today, and I’ve had the privilege of learning
-            Nodejs, My main focus to be a MERN-stack developer. Enjoying the
-            Journey; Love develop web sites and web applications as a hobby to
-            improve skills and knowledge.
+            Hello! My name is Musadhiq and I enjoy creating things that live on
+            the internet. My interest in web development. I am a (MERN)
+            full-stack developer with a passion for building beautiful,
+            responsive websites. <br /> <br />
+            Solution-driven web developer adapt at contributing to highly
+            collaborative work environment and finding creative solutions to
+            complex problems. I am a quick learner and a team player. I am
+            passionate about web development and I am always looking for new
+            opportunities to learn and grow.
           </AboutText>
           <AboutText bold color="dark" size="1.1rem" p=" 10px 0">
             Here are a few technologies I’ve been working with recently:

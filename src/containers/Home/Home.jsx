@@ -15,8 +15,8 @@ function Home() {
           <Homeh1>Musadhiq.</Homeh1>
           <Homeh2>I build things for the web.</Homeh2>
           <Text color="dark" m="10px 0" size="1.2rem">
-            I’m a passionate web developer specializing in building (and
-            occasionally developing) exceptional digital experiences.
+            I’m a passionate web developer who tries to achieve the highest
+            standard possible at any given risk.
           </Text>
           <Btn href="#" m="40px 0" p="11px 22px">
             Get In Touch!

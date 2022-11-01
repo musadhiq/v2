@@ -25,6 +25,9 @@ export const colors = {
 export const Link = styled.a`
   text-decoration: none;
   color: ${(props) => (props.color ? props.color : "unset")};
+  &:hover {
+    color: ${colors.green};
+  }
 `;
 export const Container = styled.div`
   display: ${(props) => props.display};
@@ -91,4 +94,5 @@ export const Btn = styled(Link)`
   margin: ${(props) => props.m};
   padding: ${(props) => props.p};
   display: inline-block;
+  cursor: pointer;
 `;

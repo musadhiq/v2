@@ -22,7 +22,7 @@ function Project({ data }) {
       <ProjectInnerList>
         <ProjectInnerListItem>
           <ProjectRight z="2" className="right">
-            <Highlight>Fetured Project</Highlight>
+            <Highlight>{data.tag ? data.tag : "Fetured Project"}</Highlight>
             <ProjectHead m="10px 0">{data?.name}</ProjectHead>
             <ProjectDescription m="10px 0">
               {data?.description}
