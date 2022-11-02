@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0 auto;
   padding: 0 50px;
@@ -23,6 +27,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
   position: relative;
+  overflow-x: hidden;
 }
 
 .menu-icon {
@@ -33,6 +38,12 @@ body {
 .icon {
   margin: 7px 0;
   transition: all 0.3s ease-in-out;
+}
+.r-btn {
+  display: inline-block;
+  margin: 7px 0;
+  padding: 0rem 1rem;
+  font-size: 12px;
 }
 .icon:hover {
   transform: scale(1.3);
@@ -71,6 +82,67 @@ body {
 }
 @media screen and (max-width: 425px) {
   body {
-    padding: 0 20px;
+    padding: 0 10px;
   }
+  .PDFDocument {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.PDFDocument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PDFPage {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.PDFPageOne {
+  margin-bottom: 25px;
+}
+
+.PDFPage > canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* 404 */
+#oopss {
+  position: fixed;
+  left: 0px;
+  top: 8vh;
+  width: 100%;
+  line-height: 1.5em;
+  z-index: 9999;
+}
+#oopss #error-text {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  direction: rtl;
+}
+#oopss #error-text img {
+  margin: 85px auto 20px;
+  height: 342px;
+}
+#oopss #error-text span {
+  position: relative;
+  font-size: 3.3em;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+#oopss #error-text p.p-a {
+  font-size: 19px;
+  margin: 30px 0 15px 0;
+}
+#oopss #error-text p.p-b {
+  font-size: 15px;
 }

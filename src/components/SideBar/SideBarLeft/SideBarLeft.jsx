@@ -15,27 +15,30 @@ function SideBarLeftMain() {
     <SideBarLeft m="0 20px">
       <SideBarList>
         <SideBarListItem>
-          <SideBarLink to="/">
+          <SideBarLink href="//github.com/musadhiq" target="_blank">
             <VscGithubAlt className="icon" />
           </SideBarLink>
         </SideBarListItem>
         <SideBarListItem>
-          <SideBarLink to="/">
+          <SideBarLink href="//instagram.com/musadhiq_mp" target="_blank">
             <IoLogoInstagram className="icon" />
           </SideBarLink>
         </SideBarListItem>
         <SideBarListItem>
-          <SideBarLink to="/">
+          <SideBarLink href="//twitter.com/musadhiqmp" target="_blank">
             <FiTwitter className="icon" />
           </SideBarLink>
         </SideBarListItem>
         <SideBarListItem>
-          <SideBarLink to="/">
+          <SideBarLink
+            href="//in.linkedin.com/in/musadhiq-mp-0864b91b8"
+            target="_blank"
+          >
             <FiLinkedin className="icon" />
           </SideBarLink>
         </SideBarListItem>
         <SideBarListItem>
-          <SideBarLink to="/">
+          <SideBarLink href="/" target="_blank">
             <FiCodepen className="icon" />
           </SideBarLink>
         </SideBarListItem>

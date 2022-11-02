@@ -7,7 +7,9 @@ function SideBar() {
     <Main>
       <SideBarLeftMain />
       <SideBarRight>
-        <SideBarLinkRight>musadhiqmp@gmail.com</SideBarLinkRight>
+        <SideBarLinkRight href="mailto:musadhiqmp@gmail.com">
+          musadhiqmp@gmail.com
+        </SideBarLinkRight>
       </SideBarRight>
     </Main>
   );

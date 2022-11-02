@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/Header/Header";
 import SideBar from "../../components/SideBar/SideBar";
 import { Btn, Container, Highlight, Text } from "../../Styles";
 import { HomeContainer, Homeh1, Homeh2 } from "./Style";
@@ -7,7 +6,6 @@ import { HomeContainer, Homeh1, Homeh2 } from "./Style";
 function Home() {
   return (
     <>
-      <Header />
       <SideBar />
       <HomeContainer id="Home" m="10% 0" p="20px">
         <Container>

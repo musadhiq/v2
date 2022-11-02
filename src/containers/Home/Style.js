@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Head1, Head2, colors, size, Container } from "../../Styles";
 
 export const HomeContainer = styled(Container)`
-  padding: 50px 250px;
+  padding: 50px 140px;
   @media (min-width: ${size.laptop}) {
     padding: 50px 90px;
   }

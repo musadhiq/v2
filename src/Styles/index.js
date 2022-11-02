@@ -28,6 +28,9 @@ export const Link = styled.a`
   &:hover {
     color: ${colors.green};
   }
+  ${(props) =>
+    props.display === "center" &&
+    "display:flex; justify-content: center; align-items:center; gap: 5px; "};
 `;
 export const Container = styled.div`
   display: ${(props) => props.display};

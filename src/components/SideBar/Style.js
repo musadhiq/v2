@@ -71,6 +71,7 @@ export const SideBarList = styled(List)`
 `;
 export const SideBarListItem = styled(ListItem)`
   color: ${colors.textDark};
+  cursor: pointer;
 `;
 export const SideBarLink = styled(Link)`
   font-size: 1.4rem;

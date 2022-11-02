@@ -44,7 +44,7 @@ function About() {
               <Highlight p="0 5px" bold>
                 {">"}
               </Highlight>
-              React JS
+              ReactJS & Redux
             </AboutListItem>
             <AboutListItem>
               <Highlight p="0 5px" bold>
